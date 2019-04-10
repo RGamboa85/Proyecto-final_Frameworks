@@ -36,3 +36,5 @@
   .fa:hover {
     opacity: 0.8
   }
+
+  .navbar-expand {-sm|-md|-lg|-xl}
