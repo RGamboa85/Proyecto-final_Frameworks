@@ -19,6 +19,10 @@
     width: 100px;
 }
 
+.social-btns{
+    text-align: right;
+}
+
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -26,4 +30,9 @@
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+    color: white;
+  }
+
+  .fa:hover {
+    opacity: 0.8
   }
