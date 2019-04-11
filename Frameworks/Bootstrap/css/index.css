@@ -176,3 +176,14 @@ margin-top: 5px;
 background-color: #9494b8;
 }
 
+#titulo_top10 {
+color: white;
+padding: 20px;
+font-family: 'Cookie', cursive;
+font-size: 36px;
+}
+
+#top10 {
+padding: 10px;
+color: white;
+}
