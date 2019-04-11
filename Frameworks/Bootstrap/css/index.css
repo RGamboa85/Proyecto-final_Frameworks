@@ -54,3 +54,20 @@ a:hover {
 color: #e0e0eb;
 opacity: 0.8;
 }
+
+.titulo-text{
+    color: white;
+    background-color: black;
+    text-decoration-style: double;
+}
+
+.img-contenido1{
+width: 50%;
+padding: 10px;
+}
+
+#contenido1 {
+color: white;
+text-align: justify
+}
+
