@@ -84,6 +84,8 @@ color: white;
 background-color: black;
 text-decoration-style: double;
 padding: 10px;
+font-family: 'Pacifico', cursive;
+font-size: 30px;
 }
 
 .img-contenido1{
@@ -117,6 +119,7 @@ background-color: black;
 }
 
 #comment-title{
+margin-top: 3px;
 font-family: 'Cookie', cursive;
 }
 
@@ -138,5 +141,11 @@ height: 100%;
 -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 -moz-box-sizing: border-box;    /* Firefox, other Gecko */
 box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.btn{
+padding: 10px;
+margin-top: 5px;
+background-color: #47476b;
 }
 
