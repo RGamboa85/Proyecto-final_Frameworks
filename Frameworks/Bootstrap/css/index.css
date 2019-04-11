@@ -32,3 +32,25 @@ color: white;
 opacity: 0.8
 }
 
+.navbar{
+    background-color: black;
+    text-align: center;
+    color: white !important;
+}
+
+a:link {
+color: white;
+}
+
+a:visited {
+color: #c2c2d6;
+}
+
+a:active {
+color: white;
+}
+
+a:hover {
+color: #e0e0eb;
+opacity: 0.8;
+}
