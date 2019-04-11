@@ -13,6 +13,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Cookie|Pacifico&amp;subset=cyrillic,latin-ext,vietnamese" rel="stylesheet">
         <script src="js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
         <title>Blog con Bootstrap</title>
 
     </head>
@@ -112,17 +113,49 @@
                     </form>
                 </nav>
                 <HR>
-                <select class="custom-select" multiple onchange="location = this.value;">
-                        <option value="artistas.html" target="_blank">Artistas</option>
-                        <option value="grupos.html" target="_blank">Grupos</option>
-                        <option value="top10.html" target="_blank">Top 10</option>
-                        <option value="letras.html" target="_blank">Letras</option>
-                        <option value="acordes.html" target="_blank">Acordes</option>
-                        <input onclick class="btn btn-primary" type="submit" value="Elegir" id="enviar">
-                </select>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="input-group" id="adv-search">
+                                <input type="text" class="form-control" placeholder="Search for snippets" />
+                                    <div class="input-group-btn">
+                                        <div class="btn-group" role="group">
+                                        <div class="dropdown dropdown-lg">
+                                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
+                                            <div class="dropdown-menu dropdown-menu-right" role="menu">
+                                            <form class="form-horizontal" role="form">
+                                            <div class="form-group">
+                                                <label for="filter">Filter by</label>
+                                            <select class="form-control">
+                                                <option value="0" selected>All Snippets</option>
+                                                <option value="1">Featured</option>
+                                                <option value="2">Most popular</option>
+                                                <option value="3">Top rated</option>
+                                                <option value="4">Most commented</option>
+                                            </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="contain">Author</label>
+                                                <input class="form-control" type="text"/>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="contain">Contains the words</label>
+                                                <input class="form-control" type="text" />
+                                            </div>
+                                            <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                                            </form>
+                                            </div>
+                                        </div>
+                                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
+        
         <HR>
 
         <div class="row">
