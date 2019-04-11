@@ -38,3 +38,7 @@
   }
 
   .navbar-expand {-sm|-md|-lg|-xl}
+
+  .container-fluid{
+    min-width:300px;
+  }
