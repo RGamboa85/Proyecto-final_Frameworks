@@ -110,6 +110,10 @@ color: #e0e0eb;
 opacity: 1;
 }
 
+#search-icon {
+color: black;
+}
+
 .img-contenido2{
 width: 40%;
 padding: 10px;
