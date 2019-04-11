@@ -112,14 +112,13 @@
                     </form>
                 </nav>
                 <HR>
-                <select class="custom-select" multiple>
-                        <option selected>Elija una categoría</option>
-                        <option value="artistas" href="artistas.html">Artistas</option>
-                        <option value="grupos" href="grupos.html">Grupos</option>
-                        <option value="top10" href="top10.html">Top 10</option>
-                        <option value="letras" href="letras.html">Letras</option>
-                        <option value="acordes" href="acordes.html">Acordes</option>
-                        <input class="btn btn-primary" type="submit" value="Elegir" id="enviar">
+                <select class="custom-select" multiple onchange="location = this.value;">
+                        <option value="artistas.html" target="_blank">Artistas</option>
+                        <option value="grupos.html" target="_blank">Grupos</option>
+                        <option value="top10.html" target="_blank">Top 10</option>
+                        <option value="letras.html" target="_blank">Letras</option>
+                        <option value="acordes.html" target="_blank">Acordes</option>
+                        <input onclick class="btn btn-primary" type="submit" value="Elegir" id="enviar">
                 </select>
             </div>
         </div>
