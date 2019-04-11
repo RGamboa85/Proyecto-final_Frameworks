@@ -100,6 +100,16 @@ text-align: justify;
 padding: 10px;
 }
 
+#buscar-btn{
+color: #9494b8;
+background-color: #47476b;
+}
+
+button:hover {
+color: #e0e0eb;
+opacity: 1;
+}
+
 .img-contenido2{
 width: 40%;
 padding: 10px;
@@ -129,7 +139,7 @@ margin-top: 5px;
 padding: 5px;
 }
 
-#textarea-header{
+#textarea-header {
 font-family: 'Cookie', cursive;
 font-size: 24px;
 }
@@ -143,9 +153,9 @@ height: 100%;
 box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
-.btn{
+#enviar{
 padding: 10px;
 margin-top: 5px;
-background-color: #47476b;
+background-color: #9494b8;
 }
 
