@@ -114,6 +114,19 @@ opacity: 1;
 color: white;
 }
 
+#filter_btn {
+background-color: #47476b;
+}
+
+#search_concept {
+color: white;
+}
+
+#seach_btn{
+background-color: #47476b;
+color: white;
+}
+
 .img-contenido2{
 width: 40%;
 padding: 10px;
