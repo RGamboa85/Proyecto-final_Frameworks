@@ -187,3 +187,21 @@ font-size: 36px;
 padding: 10px;
 color: white;
 }
+
+#titulo_letras {
+color: white;
+padding: 20px;
+font-family: 'Cookie', cursive;
+font-size: 36px;
+}
+
+#titulo_cancion {
+color: white;
+padding: 20px;
+font-family: 'Cookie', cursive;
+}
+
+#letra_cancion {
+color: white;
+padding: 20px;
+}
