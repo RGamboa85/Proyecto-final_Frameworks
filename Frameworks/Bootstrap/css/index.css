@@ -1,8 +1,12 @@
 .logo-img{
- width: 100px;
+width: 80px;
+display: flex;
+align-items: center;
+float: left;
 }
     
 #titulito{
+padding: 10px;
 margin: 0%;
 color: #e0e0eb;
 font-family: 'Pacifico', cursive; 
@@ -21,21 +25,21 @@ text-align: right;
 padding: 20px;
 font-size: 30px;
 width: 30px;
-text-align: center;
+text-align: center middle;
 text-decoration: none;
-border-radius: 50%;
+border-radius: 10px;
 color: white;
 }
     
 .fa:hover {
-opacity: 0.8
+opacity: 0.8;
 }
 
 .blog-body:before {
 background: url(../img/background.jpg);
 content: "";
 position: fixed;
-filter: blur(3px);
+filter: blur(8px);
 background-repeat: no-repeat;
 background-attachment: scroll;
 background-position: center center;
@@ -43,6 +47,7 @@ background-size: cover;
 background-blend-mode: hue;
 width: 100%;
 height: 100%;
+z-index: -1;
 }
 
 .blog-body{
@@ -51,9 +56,10 @@ font-family: 'Roboto', sans-serif;
 }
 
 .navbar{
-background-color: black;
+background-color: #47476b;
 text-align: center;
 color: white !important;
+border-radius: 10px;
 }
 
 a:link {
@@ -110,8 +116,19 @@ text-align: left;
 background-color: black;
 }
 
+#comment-title{
+font-family: 'Cookie', cursive;
+}
+
 #avatar {
 max-width: 100px;
+margin-top: 5px;
+padding: 5px;
+}
+
+#textarea-header{
+font-family: 'Cookie', cursive;
+font-size: 24px;
 }
 
 #cajatexto {
