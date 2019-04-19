@@ -8,7 +8,7 @@ img{
 
 body{
     background-image: url(../img/background.jpg);
-    backdrop-filter: blur;
+    background-blend-mode: darken;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
