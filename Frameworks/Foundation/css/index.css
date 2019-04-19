@@ -5,3 +5,9 @@ $foundation-palette: (
   warning: #ffae00,
   alert: #cc4b37,
 );
+
+#background {
+    background-image: url(../img/background.jpg);
+    width: 100%;
+    height: 100%;
+}
