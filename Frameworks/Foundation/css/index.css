@@ -1,3 +1,13 @@
 img{
     max-height: 129px;
 }
+
+body{
+    background-image: url(../img/background.jpg);
+    backdrop-filter: blur;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 0;
+}
