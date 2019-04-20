@@ -50,6 +50,7 @@ max-width: 50%;
     margin-top: 10px;
     z-index: 1;
     position: center;
+    vertical-align: middle;
 }
 
 #titulo-perfil{
