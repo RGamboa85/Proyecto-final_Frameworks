@@ -26,3 +26,8 @@ body{
 #receta1{
     min-width: 100px;
 }
+
+#avatar{
+    max-height: 100px;
+    align-content: space-around;
+}
