@@ -45,11 +45,13 @@ max-width: 50%;
 .circle{
     max-width: 200px;
     text-align: center;
-    position: center center fixed;
     padding: 20px;
     align-content: center;
+    margin-top: 10px;
+    z-index: 1;
+    position: center;
 }
 
 #titulo-perfil{
-    text-align: center;
+    text-align: justify;
 }
