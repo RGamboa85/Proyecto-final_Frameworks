@@ -1,3 +1,11 @@
+.header{
+    font-family: 'Satisfy', cursive;
+}
+
+.body{
+    font-family: 'Merienda', cursive;
+}
+
 .parallax {
 background-image: url("../img/background.jpg");
 height: 500px; 
@@ -6,9 +14,11 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
+
 #contenido-todo{
     padding: 10px;
 }
+
 .barra-superior{
     min-height: 4rem;
 }
@@ -25,6 +35,7 @@ background-size: cover;
 
 #titulo{
     padding: 10px;
+    font-family: 'Satisfy', cursive;
 }
 
 .responsive-img{
@@ -37,7 +48,9 @@ background-size: cover;
 }
 .contenido-1{
     padding: 20px;
+    font-family: 'Merienda', cursive;
 }
+
 #img-content{
 max-width: 50%;
 }
@@ -55,4 +68,13 @@ max-width: 50%;
 
 #titulo-perfil{
     text-align: justify;
+    font-family: 'Satisfy', cursive;
+}
+
+#perfil{
+    font-family: 'Merienda', cursive; 
+}
+
+.footer-copyright{
+    font-family: 'Satisfy', cursive;
 }
