@@ -1,17 +1,28 @@
 header{
     padding: 20px;
 }
+#favoritos{
+    padding: 10px;
+}
+
+#buscar{
+    align-content: flex-end;
+}
+
 img{
     max-height: 129px;
-    max-width: 129px;
 }
 
 body{
     background-image: url(../img/background.jpg);
-    background-blend-mode: darken;
+    backdrop-filter: blur;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     z-index: 0;
+}
+
+#receta1{
+    min-width: 100px;
 }
