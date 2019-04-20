@@ -6,7 +6,9 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
-
+#contenido-todo{
+    padding: 10px;
+}
 .barra-superior{
     min-height: 4rem;
 }
@@ -32,4 +34,22 @@ background-size: cover;
 
 .columna-galeria{
     padding: 0 !important;
+}
+.contenido-1{
+    padding: 20px;
+}
+#img-content{
+max-width: 50%;
+}
+
+.circle{
+    max-width: 200px;
+    text-align: center;
+    position: center center fixed;
+    padding: 20px;
+    align-content: center;
+}
+
+#titulo-perfil{
+    text-align: center;
 }
