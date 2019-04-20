@@ -1,6 +1,11 @@
+.parallax-container {
+    height: 500px;
+}
+
 .barra-superior{
     min-height: 4rem;
 }
+
 .logo{
     width: 40px;
     margin-top: 0.5rem;
@@ -13,4 +18,13 @@
 
 #titulo{
     padding: 10px;
+}
+
+.responsive-img{
+    border: 0.6rem solid teal;
+    border-radius: 5px;
+}
+
+.columna-galeria{
+    padding: 0 !important;
 }
